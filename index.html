@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Student Registration System</title>
+        <meta
+            name="description"
+            content="A simple system to register students and manage records"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Student Registration System</h1>
+            <p>Register students and manage student records easily.</p>
+        </header>
+
+        <main>
+            <section id="form-section">
+                <h2>Register a Student</h2>
+                <form id="student-form">
+                    <label for="student-name">Student Name</label>
+                    <input
+                        type="text"
+                        id="student-name"
+                        name="studentName"
+                        required
+                        placeholder="Enter student name"
+                    />
+
+                    <label for="student-id">Student ID</label>
+                    <input
+                        type="text"
+                        id="student-id"
+                        name="studentId"
+                        required
+                        placeholder="Enter student ID in numerical format"
+                    />
+
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                        placeholder="email@example.com"
+                    />
+
+                    <label for="contact-no">Contact No</label>
+                    <input
+                        type="text"
+                        id="contact-no"
+                        name="contactNo"
+                        required
+                        placeholder="Enter 10 digit contact number"
+                    />
+
+                    <button type="submit">Add Student</button>
+                </form>
+            </section>
+            <hr />
+            <section id="display-section">
+                <h2>Registered Students</h2>
+                <table id="student-table">
+                    <thead>
+                        <tr>
+                            <th>Student Name</th>
+                            <th>Student ID</th>
+                            <th>Email</th>
+                            <th>Contact No</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Student records will be dynamically added here -->
+                    </tbody>
+                </table>
+            </section>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>

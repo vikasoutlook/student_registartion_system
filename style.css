@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 40px;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1,
+h2 {
+    color: #0048ff;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background: linear-gradient(to right, #a000d1, #3e38f1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45b685;
+}
+
+hr {
+    margin-top: 4rem;
+}
+
+#student-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: #ffcfcf;
+}
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+#student-table th,
+#student-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#student-table th {
+    background-color: #001eff;
+    color: white;
+}
+
+#student-table td button {
+    padding: 5px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#student-table td button:hover {
+    background-color: #e60000;
+}
